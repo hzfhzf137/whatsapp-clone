@@ -21,7 +21,7 @@ const ContactsAndChat = () => {
         {
             src: "",
             name: "Muneeb",
-            msg: "I have reached home.",
+            msg: "I reached home.",
             time: "12:22",
         },
         {
@@ -36,22 +36,14 @@ const ContactsAndChat = () => {
             msg: "Hye",
             time: "3:00",
         },
-        {
-            src: "",
-            name: "Muneeb",
-            msg: "I have reached home.",
-            time: "12:22",
-        },
     ];
     return (
-        <React.Fragment>
-            <div className=" w-2/6">
-                <Header />
-                <SearchChat />
-                <ArchivedChats />
-                <Msg data={data} />
-            </div>
-        </React.Fragment>
+        <div className="w-full md:w-1/3 lg:w-1/4 xl:w-1/5 flex flex-col">
+            <Header />
+            <SearchChat />
+            <ArchivedChats />
+            <Msg data={data} />
+        </div>
     );
 }
 
