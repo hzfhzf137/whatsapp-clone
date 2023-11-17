@@ -1,7 +1,7 @@
 {
   "name": "whatsapp-clone",
   "version": "0.1.0",
-  "homepage": "https://hzfhzf137.github.io/whatsapp-clone",
+  "homepage": "https://github.com/hzfhzf137/whatsapp-clone.git",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
